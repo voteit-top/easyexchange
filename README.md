@@ -38,7 +38,7 @@ $ composer require "stingbo/easyexchange" -vvv
 ### Binance
 ```php
 <?php
-
+require __DIR__ . '/vendor/autoload.php';
 use EasyExchange\Factory;
 
 $config = [
